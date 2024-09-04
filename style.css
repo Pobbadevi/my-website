@@ -1,0 +1,148 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Changed to a more modern font */
+    background-image: url("C:/Users/Dell/OneDrive/Desktop/background.jpg"); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(45deg, #6a11cb, #2575fc); /* Gradient background */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffeb3b; /* Highlight on hover */
+}
+
+/* Main Content Styles */
+main {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+}
+
+/* Features List */
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features ul li {
+    background: #ffb74d; /* Warm, vibrant color */
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 5px solid #d84315; /* Darker border */
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+/* Cartoon Doctors Section */
+.cartoon-doctors img {
+    width: 1000px;
+    height: 550px;
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.cartoon-doctors img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background: linear-gradient(45deg, #ff6f61, #d32f2f); /* Gradient background */
+    color: white;
+    padding: 15px 0;
+    margin-top: 30px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+/* Additional Styles for Improved Accessibility */
+.large-font {
+    font-size: 1.5em;
+    color: #000;
+}
+
+.high-contrast {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Virtual Assistant Styles */
+#virtual-assistant {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#chatbox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#chat-output {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#user-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 80%;
+}
+
+#send-button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    width: 18%;
+}
+
+#send-button:hover {
+    background-color: #45a049;
+}
